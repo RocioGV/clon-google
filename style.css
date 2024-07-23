@@ -1,0 +1,175 @@
+*{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body{
+    margin: 0px;
+}
+
+footer a{
+    color: #202124;
+    text-decoration: none;
+}
+
+a:link{
+    color: #1f1f1f;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+ul{
+    padding-left: 0px;
+}
+
+footer ul li{
+    display: inline;
+    padding: 15px;
+}
+
+nav{
+    display: flex;
+    justify-content: flex-end;
+    height: 48px;
+}
+
+header{
+    padding: 6px;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    margin: 0px;
+    padding: 0px 12px 0px 32px;
+}
+
+nav ul li{
+    display: inline;
+    padding-left: 16px;
+    font-size: 14px;
+    color: #1f1f1f;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 70vh;
+    padding-top: 5.8vh;
+}
+
+article{
+    text-align: center;
+}
+
+
+footer{
+    background-color: #f2f2f2;
+    font-size: 15px;
+    color: #1f1f1f;
+}
+
+footer p{
+    padding: 15px 35px;
+    margin: 0px;
+    border-bottom: 1px solid #dadce0;
+}
+
+.iconos-buscador{
+    display: inline-block;
+    margin: 0px;
+}
+
+.lupa{
+    height: 20px;
+    opacity: 0.4;
+}
+.mic, .camera{
+    width: 24px;
+    height: 24px;
+}
+
+.size-lupa{
+    height: 20px;
+}
+
+.size-icons{
+    height: 24px;
+}
+
+.alined{
+    line-height: 24px;
+}
+
+#links-footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+    font-size: 14px;
+}
+
+#grid-menu{
+    padding: 4px 8px 4px 8px;
+    opacity: 0.7;
+}
+
+#perfil{
+    border-radius: 50%;
+    padding: 6px;
+}
+
+#logo img{
+    width: 272px;
+}
+
+#buscador{
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    display: flex;
+    justify-content: center;
+    padding: 2px 5px;
+    align-items: center;
+    width: 574px;
+    height: 42px;
+    margin-top: 1.5em;
+}
+
+#buscador:hover{
+    box-shadow: 0 1px 6px rgba(32,33,36,.2);
+    border-color: transparent;
+}
+
+#buscador figure{
+    padding: 0px 10px;
+}
+
+#buscador input{
+    flex-grow: 1;
+    border: none;
+    outline: none;
+    padding: 11px;
+}
+
+#botones{
+    padding-top: 20px;
+}
+
+#botones button{
+    height: 36px;
+    padding: 0px 16px;
+    margin: 11px 4px;
+    font-size: 14px;
+    color: #3c4043;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+}
+
+#botones button:hover{
+    border: 1px solid #dadce0;
+    box-shadow: 1px 1px rgba(0, 0, 0, 0.1);
+}
